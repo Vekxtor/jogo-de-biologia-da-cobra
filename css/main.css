@@ -1,0 +1,67 @@
+.tabu .image
+{
+	position: absolute;
+	height: 97vh;
+	width: 60vw;
+	box-shadow: grey -2px 2px 5px;
+}
+.tabu .image img
+{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#menu
+{
+	position: relative;
+	background: #70a9cf;
+	height: 97vh;
+	width: 38vw;
+	left: 61vw;
+	box-shadow: grey -2px 2px 5px;
+}
+#menu .bordar #titu
+{
+	font-family: Broadway;
+	color: white;
+	font-size: 4vh;
+	text-align: center;
+}
+#menu .bordar #subtitu
+{
+	font-family: "Freestyle Script";
+	color: #f0f0f0;
+	font-size: 4vh;
+	top: 8vh;
+	left: 18vw;
+	position: relative;
+	transition: 1.5s;
+	opacity: 1;
+}
+#menu .bordar #subtitu:before
+{
+	font-family: "Freestyle Script";
+	color: #f0f0f0;
+	position: relative;
+	left: 16vw;
+	top: 10vh;
+	opacity: 0;
+}
+#menu .bordar label
+{
+	position: absolute;
+	width: 100%;
+	top: 5vh;
+}
+#menu .bordar
+{
+	position: relative;
+	background: transparent;
+	height: 95%;
+	width: 95%;
+	left: 2.5%;
+	top: 2.5%;
+  	border-width: 1px;
+ 	border-style: solid;
+  	border-color: #d3e7b6;
+} 
